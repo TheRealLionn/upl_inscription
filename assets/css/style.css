@@ -1,0 +1,645 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
+
+.ghost
+{
+    opacity: 0;
+}
+::-webkit-scrollbar
+{
+    width: 0.75vw;
+    background: #e7eeed;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgba(13, 93, 241, 0.533);
+    border-radius: 10px;
+} 
+.space
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+
+}
+.area.home
+{
+    background: #fff;
+    width: 100%;
+    height: 120vh;
+}
+.area.home .upper-side
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../plugins/bg/area-home-bg/area.home.bg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 80vh;
+}
+.area.home .upper-side .text,
+.area.home .upper-side .logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    padding: 5vw;
+    box-sizing: border-box;
+}
+.area.home .upper-side .text
+{
+    color: #ffff00;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.area.home .upper-side .text .demo span:nth-child(1)
+{
+    color: #fff;
+}
+.area.home .upper-side .text .index
+{
+    color: #fff;
+    font-size: 0.5em;
+    translate: 0.75vh 1.25vh;
+    letter-spacing: 1vw;
+}
+.area.home .upper-side .logo
+{
+    justify-content: center;
+}
+.area.home .upper-side .logo img
+{
+    width: 32.5%;
+    translate: 7.5vw 0;
+}
+.area.home .lower-side
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: auto;
+    height: 20vh;
+}
+.area.home .lower-side .card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vh;
+    height: 25vh;
+    transform: translateY(10vh);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+}  
+.area.home .lower-side .card:nth-child(1) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-7.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+} 
+.area.home .lower-side .card:nth-child(2) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-6.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+}
+.area.home .lower-side .card:nth-child(3) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-4.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+}
+.area.home .lower-side .card:nth-child(4) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-3.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+}
+.area.home .lower-side .card:nth-child(5) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-5.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+} 
+.area.home .lower-side .card:nth-child(6) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-8.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+} 
+.area.home .lower-side .card:nth-child(7) {
+    background: 
+    linear-gradient(180deg, rgba(162, 174, 229, 0.4), rgba(8, 69, 236, 0.4)),
+    url(/img/img-9.jpg) center center / cover no-repeat; 
+    color: #fcfdff;
+} 
+.lower-side h1 {
+    color:  #1a47c5;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+} 
+.card img {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 205px;
+} 
+.area.datas
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#ebedf5, rgba(8, 95, 224, 0.1));
+    width: 100%;
+    height: fit-content;
+}
+.area.datas .title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 20vh;
+    color: #1a47c5;
+    font-size: 2.5em;
+    font-weight: 300;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+}
+.area.datas form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00000020;
+    gap: 3.75vw;
+    width: 80vw;
+    height: fit-content;
+    color: #464646;
+    font-family: 'nunito', sans-serif;
+    font-size: 1.25em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.fullname h1 {
+    font-size: 25px;
+} 
+.fullname h1::before {
+    content: '1';
+    color: #ddd;
+    background: #1a47c5;
+    padding: 5px;
+    font-size: 25px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+.adress h1 {
+    font-size: 25px;
+} 
+.adress h1::before {
+    content: '2';
+    color: #ddd;
+    background: #1a47c5;
+    padding: 5px;
+    font-size: 25px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+.tels h1 {
+    font-size: 25px;
+} 
+.tels h1::before {
+    content: '3';
+    color: #ddd;
+    background: #1a47c5;
+    padding: 5px;
+    font-size: 25px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+.area.datas form .fullname,
+.area.datas form .tels,
+.area.datas form .adress
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 2.5vw;
+    background: transparent;
+    width: 85%;
+    height: fit-content;
+    border-left: 2px solid #5777e0;
+    border-right: 2px solid #5777e0;
+    padding: 5vw;
+    box-sizing: border-box;
+} 
+.area.datas form .index
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.area.datas form input
+{
+    background: #dfdfdf;
+    border: none;
+    border-left: solid 2px #5777e0;
+    width: 350px;
+    height: 42px;
+    padding-left: .5vw;
+    box-sizing: border-box;
+}
+.area.datas form .sexe  span {
+    position: relative;
+    font-size: 35px;
+    width: px;
+    color: #1a47c5;
+    right: -200px;
+    content: icon;
+} 
+.area.datas form select {
+    background: #dfdfdf;
+    border: none;
+    border-left: solid 2px #5777e0;
+    width: 350px;
+    height: 42px;
+    padding-left: .5vw;
+    box-sizing: border-box;
+    appearance: none;
+}
+.area.datas form input[type="file"]
+{
+    padding-top: 1.25vh;
+}
+.area.datas .footer
+{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 30vh;
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 1024px) {
+    ::-webkit-scrollbar
+    {
+        width: 0;
+        display: none;
+    }
+    .area.home
+    {
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    .area.home .upper-side
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../plugins/bg/area-home-bg/area.home.bg.pad.svg);
+        background-position-y: -20vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 80vh;
+    }
+    .area.home .upper-side .text,
+    .area.home .upper-side .logo
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 25%;
+        padding: 5vw;
+        box-sizing: border-box;
+    }
+    .area.home .upper-side .text
+    {
+        color: #ffff00;
+        font-size: 5em;
+        font-family: sans-serif;
+        font-weight: 300;
+    }
+    .fullname h1 {
+        font-size: 20px;
+    }
+    .adress h1 {
+        font-size: 20px;
+    }
+    .tels h1 {
+        font-size: 20px;
+    }
+
+    
+    .area.home .upper-side .text .demo span:nth-child(1)
+    {
+        color: #fff;
+    }
+    .area.home .upper-side .text .index
+    {
+        color: #fff;
+        font-size: 0.5em;
+        translate: 0.75vh 1.25vh;
+        letter-spacing: 1vw;
+    }
+    .area.home .upper-side .logo
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .area.home .upper-side .logo img
+    {
+        width: 32.5%;
+        translate: 0 0;
+        margin-bottom: 30px;
+    } 
+    .area.home .lower-side
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        width: auto;
+        height: 20vh;
+    }
+    .area.home .lower-side .card
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35vh;
+        height: 80%;
+        transform: translateY(0);
+        font-size: 15px;
+    } 
+    .area.datas
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(#ebedf5, rgba(8, 95, 224, 0.1));
+        width: 100%;
+        height: fit-content;
+    }
+    .area.datas .title
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 70vw;
+        height: 15vh;
+        color: #1a47c5;
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    .area.datas form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #00000020;
+        gap: 3.75vw;
+        width: 80vw;
+        height: fit-content;
+        color: #464646;
+        font-size: 0.9em;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .area.datas form .fullname,
+    .area.datas form .tels,
+    .area.datas form .adress
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5vh;
+        background: transparent;
+        width: 80%;
+        height: fit-content;
+        border-left: 2px solid #1a47c5;
+        border-right: 2px solid #1a47c5;
+        padding: 5vw;
+        box-sizing: border-box;
+    }
+    .area.datas form .index
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vh;
+    }
+    .area.datas form input
+    {
+        background: #dfdfdf;
+        border: none;
+        border-left: #1a47c5 2px solid;
+        width: 100%;
+        height: 42.5px;
+        padding-left: 2vw;
+        box-sizing: border-box;
+    }
+    .area.datas form select
+    {
+        background: #dfdfdf;
+        border: none;
+        border-left: #1a47c5 2px solid;
+        width: 100%;
+        height: 42.5px;
+        padding-left: 2vw;
+        box-sizing: border-box;
+    } 
+    
+}
+
+@media screen and (max-width: 414px) {
+    ::-webkit-scrollbar
+    {
+        width: 0;
+        display: none;
+    }
+    .area.home
+    {
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+    }
+    .area.home .upper-side
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../plugins/bg/area-home-bg/area.home.bg.mobil.svg);
+        background-position-y: -20vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 80vh;
+    }
+    .area.home .upper-side .text,
+    .area.home .upper-side .logo
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 25%;
+        padding: 5vw;
+        box-sizing: border-box;
+    }
+    .area.home .upper-side .text
+    {
+        color: #ffff00;
+        font-size: 3em;
+        font-family: sans-serif;
+        font-weight: 300;
+    }
+    .area.home .upper-side .text .demo span:nth-child(1)
+    {
+        color: #fff;
+    }
+    .area.home .upper-side .text .index
+    {
+        color: #fff;
+        font-size: 0.5em;
+        translate: 0.75vh 1.25vh;
+        letter-spacing: 1vw;
+    }
+    .area.home .upper-side .logo
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .area.home .upper-side .logo img
+    {
+        width: 32.5%;
+        translate: 0 0;
+    }
+    .area.home .lower-side
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        width: auto;
+        height: 20vh;
+    }
+    .area.home .lower-side .card
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ddd;
+        width: 35vh;
+        height: 80%;
+        transform: translateY(0);
+    }
+    .area.datas
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(#c3cef7, rgba(98, 144, 212, 0.5));
+    
+        width: 100%;
+        height: fit-content;
+    }
+    .area.datas .title
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80vw;
+        height: 20vh;
+        color: #1a47c5;
+        font-size: 1em;
+        font-weight: 300;
+        
+    }
+    .area.datas form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #00000020;
+        gap: 3.75vw;
+        width: 90vw;
+        height: fit-content;
+        color: #464646;
+        font-size: 0.9em;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .area.datas form .fullname,
+    .area.datas form .tels,
+    .area.datas form .adress
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5vh;
+        background: transparent;
+        width: 80%;
+        height: fit-content;
+        border-left: 2px solid #1a47c5;
+        border-right: 2px solid #1a47c5;
+        padding: 5vw;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .area.datas form .index
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vh;
+    }
+    .area.datas form input
+    {
+        background: #dfdfdf;
+        border: none;
+        width: 100%;
+        height: 30px;
+        border-left: #1a47c5 2px solid;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        box-sizing: border-box;
+    }
+    .area.datas form select
+    {
+        background: #dfdfdf;
+        border: none;
+        border-left: #1a47c5 2px solid;
+        width: 100%;
+        height: 30px;
+        padding-left: 2vw;
+        box-sizing: border-box;
+    } 
+ 
+    
+}

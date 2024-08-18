@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front-end by Just's Rufus (Lokuma)">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/plugins/icons/icomoon/style.css">
+    <link importance="true" rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/App.js" type="module"></script>
+    <title>UPL - Inscription</title>
+</head>
+<style>
+    .hidden{
+        display: none!important;
+    }
+    .btn{
+        width: 200px!important;
+    }
+</style>
+<body>
+    <div class="space">
+        <div class="area home">
+            <div class="upper-side">
+                <div class="text">
+                    <div class="demo">
+                        <span>UPL</span><span class="ghost">_</span>|<span class="ghost">_</span>
+                    </div>
+                    <div class="index">
+                       Inscription, réjoingnez-nous
+                    </div>
+                </div>
+                <div class="logo"><img src="assets/plugins/images/logo_vectorise.png" alt=""></div>
+            </div>
+            <div class="lower-side">
+                <div class="card">Informatique</div>
+                <div class="card">Polytechnique</div>
+                <div class="card">Economie</div>
+                <div class="card">Sic</div>
+                <div class="card">Theologie</div>
+                <div class="card">Droit</div>
+                <div class="card">Lettres</div>
+            </div> 
+        </div> 
+        <div class="area datas">
+            <div class="title">Remplissez le formulaire ci-après</div>
+            <form action="">
+                <div class="fullname">
+                    <h1>Identités</h1>
+                    <div class="index lastname">
+                        <label for="lastname">Nom, Post-nom et Prénom </label>
+                        <input required type="text" name="lastname" placeholder="Saisir votre nom">
+                    </div>
+                    <div class="index lieu">
+                        <label for="">Lieu et date de naissance</label>
+                        <input required type="text" name="matricul" placeholder="Votre lieu et date de naissace">
+                    </div>
+                    <div class="index Sexe">
+                        <label for="sexe">Sexe</label>
+                        <select name="sexe" id="" >
+                            <option value="homme">Homme</option>
+                            <option value="femme">Femme</option>
+                        </select>
+                    </div> 
+                    <div class="index Etat">
+                        <label for="">Etat civil</label>
+                        <input required type="text" name="etat" placeholder="Votre Etat civil">
+                    </div>
+                    <div class="index nat">
+                        <label for="">Nationalité</label>
+                        <input required type="text" name="nation" placeholder="Votre Nationalité">
+                    </div> 
+                    <div class="index moms">
+                        <label for="">Nom du père et de la mère</label>
+                        <input required type="text" name="name" placeholder="noms de parents">
+                    </div>
+                    <div class="index Prov">
+                        <label for="">Province d'origine de parents</label>
+                        <input required type="text" name="province" placeholder="Votre province d'origine">
+                    </div>
+                    <div class="index Terri">
+                        <label for="">Territoire</label>
+                        <input required type="text" name="Province" placeholder="Votre Territoire d'origine">
+                    </div>
+                    <div class="index Dis">
+                        <label for="">District</label>
+                        <input required type="text" name="Province" placeholder="Votre discrit d'origine">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">Adresse du domicile</label>
+                        <input required type="text" name="adress" placeholder="Ajouter un adresse ">
+                    </div>
+                    <div class="index Tel">
+                        <label for="tel">Numéro Tél</label>
+                        <input required type="tel" name="tel" placeholder="Saisir votre numéro mobil">
+                    </div>
+                    <div class="index email">
+                        <label for="email">Adresse mail</label>
+                        <input required type="email" name="email" placeholder="Saisir votre adresse mail">
+                    </div>
+                    <div class="index mail">
+                        <label for="adress">Nom du responsable(Parent ou tuteur)</label>
+                        <input required data-tel type="text" name="name" placeholder="Ajouter le nom de votre responsable">
+                    </div> 
+                    <div class="index _adress">
+                        <label for="tel-res">N° Tél du responsable</label>
+                        <input required type="text" name="phone" placeholder="Ajouter numero téléphone">
+                    </div>
+                </div>
+                <div class="adress hidden" data-adress>
+                    <h1>Etudes secondaires</h1>
+                    <div class="index _adress">
+                        <label for="adress">Ecole fréquentée</label>
+                        <input required type="text" name="school" placeholder="Ajouter le nom de votre école">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">Code de l'école</label>
+                        <input required type="text" name="adress" placeholder="Ajouter le code de votre école">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">Province</label>
+                        <input required type="text" name="adress" placeholder="Ajouter la province">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">Option suivi aux humanités</label>
+                        <input required type="text" name="adress" placeholder="Ajouter votre option">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">N° du diplôme d'Etat</label>
+                        <input required type="text" name="adress" placeholder="Ajouter le numero du dplôme">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">Année d'optation du diplôme</label>
+                        <input required type="text" name="adress" placeholder="Ajouter l'année scolaire">
+                    </div>
+                    <div class="index _adress">
+                        <label for="adress">Pourcentage</label>
+                        <input required data-pourcentage type="text" name="adress" placeholder="Ajouter le % du diplôme">
+                    </div>
+                </div>
+                <div class="tels hidden" data-faculty>
+                    <h1>Choix de la faculté et de la filière</h1>
+                    <div class="index fac">
+                        <span><em>1</em>. Sciences informatiques</span>
+                        <select  data-fac name="informatique" id="">
+                            <option value=""></option>
+                            <option value="GL">Génie logiciel</option>
+                            <option value="IA">Inteligence artificielle</option>
+                            <option value="SI">Systèmes informatique</option>
+                        </select>
+                    </div>
+                    <div class="index fac">
+                        <span><em>2</em>. Sciences de l'information et de la communication</span>
+                        <select data-fac name="sic" id="">
+                            <option value=""></option>
+                            <option value="Journalisme">Journalisme</option>
+                            <option value="communication_des_organisatons">Communication des Organisatons</option>
+                            <option value="multimedia">Multimedia et Communication Digitale</option>
+                        </select>
+                    </div>
+                    <div class="index fac">
+                        <span><em>3</em>. Sciences economiques et management</span>
+                        <select data-fac name="economie" id="">
+                            <option value=""></option>
+                            <option value="finance_et_banque">Finance et Banque</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="ressources_humaines">Ressources Humaines</option>
+                        </select>
+                    </div>
+                    <div class="index fac">
+                        <span><em>4</em>. Lettres et Sciences humaines</span>
+                        <select data-fac name="lettre" id="">
+                            <option value=""></option>
+                            <option value="langues_et_affaires">Langues et affaires</option>
+                        </select>
+                    </div>
+                    <div class="index fac">
+                        <span><em>5</em>. Polytechnique</span>
+                        <select data-fac name="polytechnique" id="">
+                            <option value=""></option>
+                            <option value="génie_des_matériaux_et_des_procédés">Génie des matériaux et des procédés</option>
+                            <option value="electromécanique">Electromécanique</option>
+                            <option value="architecture">Architecture</option>
+                            <option value="géomines">Géomines</option>
+                        </select> 
+                    </div>
+                    <div class="index fac">
+                        <span><em>6</em>. Theologie</span>
+                        <select data-fac name="theologie" id="">
+                            <option value=""></option>
+                            <option value="theologie">Theologie</option>
+                        </select> 
+                    </div>
+                    <div class="index fac">
+                        <span><em>7</em>. Droit</span>
+                        <select data-fac name="droit" id="">
+                            <option value=""></option>
+                            <option value="droit">Droit</option>
+                        </select>
+                    </div>
+                </div>
+
+                <input class="btn btn-outline-success" type="submit" value="soumettre mon inscription">
+                <input class="btn btn-outline-primary"   type="reset" value="récommencer">
+                
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
